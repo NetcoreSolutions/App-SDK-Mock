@@ -1,179 +1,190 @@
 {
-    "InAppRuleList": [],
-    "newInAppRules": [],
-    "inAppRules": [
-        {
-            "id": "556",
-            "toDate": "2027-12-30T07:45:24",
-            "fromDate": "2024-07-04T12:57:20",
-            "modifiedDate": "2024-07-04T12:57:22",
-            "frequencyType": "",
-            "frequency": "0",
-            "whomTo": {
-                "visitor": "all",
-                "visitorType": "all"
-            },
-            "whereTo": {
-                "position": "5",
-                "trigger": {
-                    "eventId": 104,
-                    "eventName": "expiry_cart",
-                    "delay": 0,
-                    "filterType": "all",
-                    "filters": []
-                },
-                "multiTrigger": [
-                    {
-                        "eventId": 104,
-                        "eventName": "expiry_cart",
-                        "delay": 0,
-                        "filterType": "all",
-                        "filters": []
-                    }
-                ]
-            },
-            "whenTo": {
-                "days": [
-                    "0",
-                    "1",
-                    "2",
-                    "3",
-                    "4",
-                    "5",
-                    "6"
-                ],
-                "time": [
-                    {
-                        "from": "09:00",
-                        "to": "21:00"
-                    }
-                ]
-            },
-            "whatTo": {
-                "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/556.html?inappVer=1",
-                "smtCustomPayload": {}
-            },
-            "contentType": 4,
-            "controlGroup": 0
+  "InAppRuleList": [],
+  "newInAppRules": [],
+  "inAppRules": [
+    {
+      "id": "556",
+      "toDate": "2027-12-30T07:45:24",
+      "fromDate": "2024-07-04T12:57:20",
+      "modifiedDate": "2024-07-04T12:57:22",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all"
+      },
+      "whereTo": {
+        "position": "5",
+        "trigger": {
+          "eventId": 104,
+          "eventName": "expiry_cart",
+          "delay": 0,
+          "filterType": "all",
+          "filters": []
         },
-        {
-            "id": "547",
-            "toDate": "2027-12-30T07:45:24",
-            "fromDate": "2024-06-25T08:42:22",
-            "modifiedDate": "2024-06-25T08:42:31",
-            "frequencyType": "",
-            "frequency": "0",
-            "whomTo": {
-                "visitor": "all",
-                "visitorType": "all",
-                "events": {
-                    "targetRule": "all",
-                    "rules": [
-                        {
-                            "eventId": 102,
-                            "eventName": "add_to_cart",
-                            "performed": "no",
-                            "waitUntil": 5,
-                            "filterType": "all",
-                            "filters": []
-                        }
-                    ]
-                }
-            },
-            "whereTo": {
-                "position": "4",
-                "trigger": {
-                    "eventId": 102,
-                    "eventName": "add_to_cart",
-                    "delay": 0,
-                    "filterType": "all",
-                    "filters": []
-                },
-                "multiTrigger": [
-                    {
-                        "eventId": 102,
-                        "eventName": "add_to_cart",
-                        "delay": 0,
-                        "filterType": "all",
-                        "filters": []
-                    }
-                ]
-            },
-            "whenTo": {
-                "days": [
-                    "0",
-                    "1",
-                    "2",
-                    "3",
-                    "4",
-                    "5",
-                    "6"
-                ],
-                "time": [
-                    {
-                        "from": "00:00",
-                        "to": "23:00"
-                    }
-                ]
-            },
-            "whatTo": {
-                "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/547.html?inappVer=1",
-                "smtCustomPayload": {}
-            },
-            "contentType": 2,
-            "controlGroup": 0
-        }
-    ],
-    "testInAppRules": [
-        []
-    ],
-    "smartechSettings": {
-        "sessionInterval": 30,
-        "batchInterval": 10,
-        "batchSize": 30,
-        "sdkActive": true,
-        "geofenceEnable": false,
-        "paEnabled": true,
-        "appInboxEnabled": true,
-        "paInterval": 15,
-        "eventSettings": {
-            "allevents": true,
-            "lifecycle": true,
-            "push": true,
-            "inapp": true,
-            "appinbox": true
-        },
-        "panelActive": true,
-        "eventLimit": 200,
-        "frequency": {
-            "enable": 1,
-            "month": 0,
-            "week": 0,
-            "day": 30
-        },
-        "baseUrls": {
-            "trackAppActUrl": "https://npn.netcoresmartech.com/",
-            "pushAmpUrl": "https://pa.netcoresmartech.com/",
-            "inAppUrl": "https://ninapp.netcoresmartech.com/",
-            "inboxUrl": "https://appinbox.netcoresmartech.com/",
-            "listSegUrl": "https://psegment.netcoresmartech.com/"
-        },
-        "hansel_api_endpoints": {
-            "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
-            "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
-            "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
-            "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
-            "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
-            "socket": "wss://websocket-visualizer.hansel.io",
-            "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
-        },
-        "cid": "140578",
-        "gwConfig": {
-            "xiaomi": {
-                "enable": false,
-                "enablePushFor": null,
-                "tokenSendInterval": 60
+        "multiTrigger": [
+          {
+            "eventId": 104,
+            "eventName": "expiry_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "09:00",
+            "to": "21:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/556.html?inappVer=1",
+        "smtCustomPayload": {}
+      },
+      "contentType": 4,
+      "controlGroup": 0
+    },
+    {
+      "id": "547",
+      "toDate": "2027-12-30T07:45:24",
+      "fromDate": "2024-06-25T08:42:22",
+      "modifiedDate": "2024-06-25T08:42:31",
+      "frequencyType": "",
+      "frequency": "0",
+      "whomTo": {
+        "visitor": "all",
+        "visitorType": "all",
+        "events": {
+          "targetRule": "all",
+          "rules": [
+            {
+              "eventId": 102,
+              "eventName": "add_to_cart",
+              "performed": "no",
+              "waitUntil": 5,
+              "filterType": "all",
+              "filters": []
             }
+          ]
         }
+      },
+      "whereTo": {
+        "position": "4",
+        "trigger": {
+          "eventId": 102,
+          "eventName": "add_to_cart",
+          "delay": 0,
+          "filterType": "all",
+          "filters": []
+        },
+        "multiTrigger": [
+          {
+            "eventId": 102,
+            "eventName": "add_to_cart",
+            "delay": 0,
+            "filterType": "all",
+            "filters": []
+          }
+        ]
+      },
+      "whenTo": {
+        "days": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "time": [
+          {
+            "from": "00:00",
+            "to": "23:00"
+          }
+        ]
+      },
+      "whatTo": {
+        "url": "https://cdndc.netcoresmartech.com/140578/in-app-content/547.html?inappVer=1",
+        "smtCustomPayload": {}
+      },
+      "contentType": 2,
+      "controlGroup": 0
     }
+  ],
+  "testInAppRules": [
+    []
+  ],
+  "smartechSettings": {
+    "sessionInterval": 30,
+    "batchInterval": 10,
+    "batchSize": 30,
+    "sdkActive": true,
+    "geofenceEnable": false,
+    "paEnabled": true,
+    "appInboxEnabled": true,
+    "paInterval": 15,
+    "eventSettings": {
+      "allevents": true,
+      "lifecycle": true,
+      "push": true,
+      "inapp": true,
+      "appinbox": true
+    },
+    "panelActive": true,
+    "eventLimit": 200,
+    "frequency": {
+      "enable": 1,
+      "month": 0,
+      "week": 0,
+      "day": 30
+    },
+    "baseUrls": {
+      "trackAppActUrl": "https://npn.netcoresmartech.com/",
+      "pushAmpUrl": "https://pa.netcoresmartech.com/",
+      "inAppUrl": "https://ninapp.netcoresmartech.com/",
+      "inboxUrl": "https://appinbox.netcoresmartech.com/",
+      "listSegUrl": "https://psegment.netcoresmartech.com/"
+    },
+    "hansel_api_endpoints": {
+      "get_data": "https://ujm.hansel.io/ujm/v1/data/<os>/<app_id>/<rv>/",
+      "add_events": "https://sdk.hansel.io/dashboard/event/v1/<app_id>/",
+      "td_auth": "https://sdk.hansel.io/dashboard/td/verify",
+      "init_sdk": "https://sdk.hansel.io/dashboard/sdk/v1/init/<os>/<app_id>/",
+      "req_sesid": "https://sdk.hansel.io/dashboard/visualizer/request_session",
+      "socket": "wss://websocket-visualizer.hansel.io",
+      "populate_data": "https://sdk.hansel.io/dashboard/populatedata/v1/<app_id>/"
+    },
+    "userAttrConfig": {
+      "enabled": true,
+      "syncInterval": 30,
+      "attrIds": [1, 2, 3, 4, 5, 6]
+    },
+    "sConfig": {
+      "elData": true,
+      "eaData": true,
+      "p": "2ljIsaomZa3zrEeQxVWm6pNzP4cB4ITdD5fDePHwqANVpWXmI2ewtdkNbt7rmxlE",
+      "a": ""
+    },
+    "cid": "140578",
+    "gwConfig": {
+      "xiaomi": {
+        "enable": false,
+        "enablePushFor": null,
+        "tokenSendInterval": 60
+      }
+    }
+  }
 }
